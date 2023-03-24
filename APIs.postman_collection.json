@@ -1,0 +1,273 @@
+{
+	"info": {
+		"_postman_id": "a44a6fd9-5410-4fc5-aa69-dcc3f8ffd21c",
+		"name": "APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"user1\",\r\n    \"password\": \"qwert2y\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Questions 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"layout\": \"tabular\",  \r\n      \"title\": \"Brief on types of customers\",\r\n      \"type\": \"Dynamic table\",\r\n      \"fields\":[{\r\n          \"field_lable\": \"Typeofcustomers\",\r\n          \"field_type\" : \"Column\"\r\n      }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/questions/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"questions",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Question 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"layout\": \"tabular\",  \r\n      \"title\": \"Brief on types of customers\",\r\n      \"type\": \"Dynamic table\",\r\n      \"fields\":[{\r\n          \"field_lable\": \"Typeofcustomers\",\r\n          \"field_type\" : \"Column\"\r\n      }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/questions/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"questions",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Question 3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"layout\": \"tabular\",  \r\n      \"title\": \"Brief on types of customers\",\r\n      \"type\": \"Dynamic table\",\r\n      \"fields\":[{\r\n          \"field_lable\": \"Typeofcustomers\",\r\n          \"field_type\" : \"Column\"\r\n      }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/questions/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"questions",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Question 4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"layout\": \"tabular\",  \r\n      \"title\": \"Brief on types of customers\",\r\n      \"type\": \"Dynamic table\",\r\n      \"fields\":[{\r\n          \"field_lable\": \"Typeofcustomers\",\r\n          \"field_type\" : \"Column\"\r\n      }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/questions/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"questions",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Question 5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"layout\": \"tabular\",  \r\n      \"title\": \"Brief on types of customers\",\r\n      \"type\": \"Dynamic table\",\r\n      \"fields\":[{\r\n          \"field_lable\": \"Typeofcustomers\",\r\n          \"field_type\" : \"Column\"\r\n      }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/questions/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"questions",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Questions",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Save Response 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question_id\" :\"641c48dd22c6696ad3345efb\",\r\n    \"value\": \"This is my response regarding that question\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/responses/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"responses",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Response 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question_id\" :\"641c48dd22c6696ad3345efb\",\r\n    \"value\": \"This is my response regarding that question\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/responses/post",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"responses",
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Attached Document",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get Responses",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
